@@ -12,6 +12,10 @@ get|git commit:
 	key(left)
 	insert('"')
 
+get|git log:
+	insert("git log")
+	key(enter)
+
 change directory|dirt:
 	insert('cd ')
 

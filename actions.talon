@@ -46,3 +46,10 @@ fullscreen:
 (sofa startup)|(start sofa)|(sofa start):
 	insert('.\sofa-startup.ps1')
 	key(enter)
+
+list images:
+	insert('docker image ls')
+	key(enter)
+
+clean images:
+	insert('docker image prune -a --filter "until=24h" --force')

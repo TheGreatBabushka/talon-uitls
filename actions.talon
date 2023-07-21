@@ -16,7 +16,7 @@ get|git log:
 	insert("git log")
 	key(enter)
 
-seed:
+seedy|((change|chain) (dirt|directory)):
 	insert('cd ')
 
 list directory|dirt:

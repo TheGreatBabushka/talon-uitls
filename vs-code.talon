@@ -1,6 +1,6 @@
 app: VSCode
 -
 
-[command] pallete:
+command pallete [son]:
 	key(ctrl-shift-p)
 

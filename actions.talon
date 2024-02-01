@@ -19,6 +19,10 @@ get|git log:
 seedy|((change|chain) (dirt|directory)):
 	insert('cd ')
 
+up dirt:
+	insert('cd ..')
+	key(enter)
+
 list directory|dirt:
 	insert('ls')
 	key(enter)
